@@ -14,6 +14,7 @@ def createshortcut():
 	shortcut.Targetpath = target
 	shortcut.WorkingDirectory = wDir
 	shortcut.save()	
+	start()
 def start():
 	print("Welcome")
 	print("1. Update")
