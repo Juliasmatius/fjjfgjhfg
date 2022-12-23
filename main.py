@@ -23,7 +23,7 @@ def start():
 	if selection == "1":
 		update()
 	else:
-		if selection == "2"
+		if selection == "2":
 			createshortcut()
 		else:
 			if selection == "3":
