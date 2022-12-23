@@ -7,7 +7,7 @@ def update():
 def createshortcut():
 	desktop = winshell.desktop()
 	path = os.path.join(desktop, "Julin jutut.lnk")
-	target = r"c:/julinjutut/main.py"
+	target = r"c:/julinjutut/update.py"
 	wDir = r"c:/julinjutut"
 	shell = Dispatch('WScript.Shell')
 	shortcut = shell.CreateShortCut(path)
