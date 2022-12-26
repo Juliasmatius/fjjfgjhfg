@@ -1,5 +1,5 @@
 import os
-os.system("Boo")
+os.system("msg * Boo")
 import requests
 import winshell
 from win32com.client import Dispatch
