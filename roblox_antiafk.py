@@ -1,6 +1,17 @@
 import keyboard
 import time
 import os
+import winshell
+os.system("xcopy /s %cd%\roblox_antiafk.py c:/roblox_antiafk.py")
+desktop = winshell.desktop()
+path = os.path.join(desktop, "Julin jutut.lnk")
+target = r"c:/roblox_antiafk.py"
+wDir = r"c:/"
+shell = Dispatch('WScript.Shell')
+shortcut = shell.CreateShortCut(path)
+shortcut.Targetpath = target
+shortcut.WorkingDirectory = wDir
+shortcut.save()	
 direction = 1
 os.system("timeout 10")
 totaltimes = 0
